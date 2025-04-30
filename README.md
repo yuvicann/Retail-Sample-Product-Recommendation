@@ -4,7 +4,7 @@
 
 A recommender engine is developed to increase revenue of clothing rental companies by predicting user preferences and recommending products for users to rent. I apply different algorithms to create personalized recommendations using content-based and collaborative filtering systems. The algorithm that attained the lowest mean absolute error of 0.5 is the Singular Value Decomposition.
 
-![header](data/images/header.png)
+
 
 ## Business Problem
 
@@ -22,23 +22,8 @@ The Rent the Runway reviews ([data source](https://cseweb.ucsd.edu/~jmcauley/dat
   - Group the data by `user_id`
   - Group the data by `item_id`.
 
-**Data Visualization:**
-![](data/images/fig1.png)
-Normally distributed and diverse ranges of weight, height, and age above.
-***
-![](data/images/fig3.png)
-Overall, two thirds of users rented only one item and the remaining third rented more than one, on the left chart. Majority of those who rented more than once rented exactly two items, on the right chart.
-***
-![](data/images/fig6.png)
-The most common clothing categories are dresses and gowns that align with the most common reasons for renting which are for wedding, formal affair, and party.
-***
 
-**Time Series:**
-![](data/images/timeseries.png)
-- The count of reviews increased over the years from 10,000 in 2013 to almost 70,000 by 2018.
-- The count of reviews peak during months of spring and fall with the highest spike of over 8,000 reviews in October of 2017.
-- The average ratings steadily increased from over 4.45 in 2013 to 4.575 in 2016 but went down by less then 0.025 in 2017.
-- The average ratings peak during the latter months of the year and aligned with the higher counts of rentals in the fall.
+
 
 ## Recommendation Systems
 
@@ -84,13 +69,8 @@ Collaborative filtering systems recommend items to a user based on the user's pa
 
 **Systems Performance:**
 
-![](data/images/canva.png)
 
 To evaluate the recommendation systems, I use the mean absolute error which measures the difference between the rating predicted by the model and the actual rating by the user. The results show that the tuned Singular Value Decomposition algorithm attains the lowest Mean Absolute Error of 0.5302 on the 5 point rating scale.
 
-***
-SOURCE CODE: [Main Notebook](https://github.com/czarinagluna/retail-product-recommender-engine/blob/main/main.ipynb)
 
-# Contact
 
-Feel free to contact me for any questions and connect with me on [Linkedin](https://www.linkedin.com/in/czarinagluna/).
